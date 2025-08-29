@@ -14,8 +14,8 @@ int main(void){
 int a = 5; 
 int b = 10; 
 
-printf("Sum = %d",add(a,b));  
-printf("Sub = %d",sub(a,b));  
+printf("Sum = %d",add(a,b));  // Summation 
+printf("Sub = %d",sub(a,b));  // Subtraction
 
 
 return 0; 

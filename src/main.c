@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 double add (double a, double b){
 return a + b; 
@@ -17,8 +18,17 @@ double div (double a, double b){
  return b != 0 ? a / b : 0; 
 }
 
+double getSquareRootValue(double a){
+return sqrt(a); 
+}
 
+long mod(long a, long b ){
+return a % b; 
+}
 
+long abs(long a){
+return a > 0 ? a : -a; 
+}
 
 
 int main(void){

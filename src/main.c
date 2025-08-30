@@ -18,6 +18,18 @@ double div (double a, double b){
  return b != 0 ? a / b : 0; 
 }
 
+
+double max (double a, double b){
+ return a>b ? a  : b; 
+}
+
+double min (double a, double b){
+ return a<b ? a  : b; 
+}
+
+double avg (double a, double b){
+ return (a+b)/2 ; 
+
 double getSquareRootValue(double a){
 return sqrt(a); 
 }
@@ -29,7 +41,6 @@ return a % b;
 long abs(long a){
 return a > 0 ? a : -a; 
 }
-
 
 int main(void){
 
